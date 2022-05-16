@@ -1,0 +1,67 @@
+.theme--color{ 
+    color: var(--theme-color);
+    /* border-color: var(--theme-color); */
+}
+
+.theme--bg-color, 
+.theme--bg-color:hover{ 
+    background: var(--theme-color); 
+    color: #fff;
+}
+
+.theme--bg-color:hover a{
+    color: #fff;
+}
+
+.theme--border-color{ 
+    border-color: var(--theme-color); 
+}
+
+body{ 
+    color: var(--main-text-color);
+    background: var(--main-bg-color);
+}			
+
+.headline h2, .headline h3, .headline h4 { 
+    border-bottom: 2px solid var(--theme-color);
+}
+
+
+/* BTN */
+
+.btn-wrap{
+    display: grid;
+    place-items: center;
+    padding: 10px 0;
+}
+
+.btn{
+    border-width: var(--main-btn-border-size); 
+    border-style: solid; 
+    border-color: var( --theme-color);
+    border-radius: var(--main-btn-border-radius);
+    padding: var(--main-btn-vertic-padding) var(--main-btn-horiz-padding);
+    background-color: var(--main-btn-bg);
+    color: var(--main-btn-color);
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* LINK */
+
+a,.link{
+    color: initial;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover,.link:hover{
+    color: var(--theme-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul li:hover a{
+    color: var(--theme-color) !important;
+}

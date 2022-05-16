@@ -1,0 +1,50 @@
+/* =====================
+	MAIN SETTINGS  
+=======================*/
+
+	/* .theme--color{
+		color: #09c;
+		border-color: #09c;
+	} */
+	
+	/* .theme--bg-color{
+		background: #09c;
+		color: #fff;
+	} */
+
+	.theme--bg-color a{
+		color: #fff;
+	}
+
+	/* .theme--border-color{
+		border-color: #09c;
+	} */
+
+	.main-container{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.anchor{
+		position: fixed;
+		bottom: 20px;
+		right: 20px;
+		z-index: 99;
+		width: 30px;
+		height: 30px;
+		font-size: 20px;
+		background: #222;
+		border-radius: 3px!important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.anchor .fa{
+		margin: 0 !important;
+    	color: #fff;
+	}
+
+	.anchor:hover{
+		background: #09c;
+	}
